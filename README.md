@@ -2,6 +2,6 @@
 
 # Instalação:
 <tables>
-  <tr><th>Nome:</th><th>Pip:</th></tr>
-  <td><th>Discord.py</th></td>
+  <tr><td>Nome:</td><td>Pip:</td></tr>
+  <tr><th>Discord.py</th><th>pip install discord.py</th></tr>
 </tables>
