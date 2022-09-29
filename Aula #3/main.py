@@ -43,7 +43,7 @@ def is_registered(database,autor,table,get):
       elif table[0].lower() == 'e':
         g.insert(database,table,('id, banco,carteira,rep,cargos',f'{autor.id}, 0, 0, 0, "user"'))
         # 'id INTEGER,banco INTEGER, carteira INTEGER, rep INTEGER, cargos TEXT'
-        return is_registered(database,autor,table,get)
+      return is_registered(database,autor,table,get)
 
 # Comandos
 @client.command()
